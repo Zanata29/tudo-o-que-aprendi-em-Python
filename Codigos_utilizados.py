@@ -40,7 +40,7 @@ print ( 'Nome:', nome, '\n' 'Idade:', idade, '\n' 'É maior de idade?:', maior_d
 nome_1 = 'Gabriel Zanata'
 idade_1 = 33
 maior_de_idade_1 = idade_1 >= 18
-nome_2 = 'Fernanda Avilez'
+nome_2 = 'Fernanda O.'
 idade_2 = 17
 maior_de_idade_2 = idade_2 >= 18
 print ( 'Nome:', nome_1, '\n' 'Idade:', idade_1, '\n', 'É maior de idade?', maior_de_idade_1) 
@@ -49,12 +49,12 @@ print ( 'Nome:', nome_2, '\n' 'Idade:', idade_2, '\n', 'É maior de idade?', mai
 ##########################################################################################################################################################################################################################
 
 nome = ('Fernanda')
-sobrenome = ('Avilez')
-apelido = ('Nandinha Pink Star')
-idade = 33
+sobrenome = ('O.')
+apelido = ('Nanda')
+idade = 25
 ano_de_nascimento = 2023 - idade
 cidade_natal = ('São Paulo')
-altura_em_metros = 168.5
+altura_em_metros = 99
 maior_de_idade = idade>=18
 estado_civil = ('Casada com Gabriel Zanata')
 print ('Nome:', nome)
@@ -102,9 +102,9 @@ print ( conta_1 ) # PROCEDENCIA DE OPERADORES... 1º sao os ()... 2º sao os **.
 
 # Indice de Massa Corporea
 nome = 'Gabriel Zanata'
-altura = 1.86 
-peso = 159
-idade = 33
+altura = 99
+peso = 65
+idade = 70
 imc = peso / (altura * altura)
 Dado_1 = 66+(13.7 * peso)
 Dado_2 = 5.0 * int(altura)
@@ -201,13 +201,13 @@ senha = input('Senha: ') or 'Sem senha'
 print (senha)
 #-------------------------------------------------------------------------------------------------------------------#
 senha = input ('Senha: ')
-if senha == 'Arcobalenino':
+if senha == 'Abcd1234':
     print("Essa é a melhor senha do mundo: ")
 else:
     print('Senha incorreta')
 #-------------------------------------------------------------------------------------------------------------------#
 senha = input ('Digite sua senha: ')
-valor_de_senha = 'Arcobalenino'
+valor_de_senha = 'Abcd1234'
 if senha == valor_de_senha:
     print("Essa é a melhor senha do mundo: ")
 elif senha != valor_de_senha:
@@ -221,7 +221,7 @@ print (not False) #True
 ##########################################################################################################################################################################################################################
 
 #Condicao IN e NOT IN
-nome = 'Gabriel José Sanches Zanata'
+nome = 'Gabriel Zanata'
 print (nome [-14])
 print (nome [4])
 # A contagem de casa sempre deve comecar pelo numero 0 ( g-0, a-1, b-2, r-3........) Tambem podemos contar atraves de indices negativos, mas devemos sempre comecar de tras para frente 
@@ -244,7 +244,7 @@ print (variavel)
 
 ##########################################################################################################################################################################################################################
 #formatação basica de STRINGs
-variavel = 'Amor'
+variavel = 'Blue'
 print (f'{variavel}')
 print (f'{variavel:@>10}') # acrescenta um numero (10) de cacaracteres a esquerda da variavel
 print (f'{variavel:&<10}') # acrescenta um numero (10) de cacaracteres a direita da variavel
@@ -253,7 +253,7 @@ print (f'{123456.13216549:,.2f}') # Nesse caso a (,) esta fazendo a separacao de
 
 ##########################################################################################################################################################################################################################
 #Fatiamento de String e funcao len
-variavel = 'Gabriel José Sanches Zanata'
+variavel = 'Gabriel Zanata'
 print (variavel [4:])  #nesse caso eu escolhi aonde eu quero que seja fatiado, como eu nao escolhi o fim do fatiamento, me devolveu como resultado o fim da frase toda.
 print (variavel [1:11]) #nesse caso eu escolhi o caracter 1 para iniciar o fatiamento e parei no caracter 11 
 print (variavel [:9]) #nesse caso estou omitindo de onde eu quero que comece (entao vai comecar pelo caracter 0) e estou escolhendo aonde eu quero que pare
